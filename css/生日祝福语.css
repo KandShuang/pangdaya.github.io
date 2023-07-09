@@ -29,10 +29,10 @@ body{
     /* 溢出隐藏 */
     overflow: hidden;
     /* 自定义属性(变量),通过var函数进行调用,这里用来记录字数(6个字,根据你的实际字数而定) */
-    --count: 32;
+    --count: 15;
     /* 执行动画: 动画名 时长 分步过渡(这里分6步) 停留在最后一帧 */
     /* 时长要根据字数而定,字数多的话要适当延长 */
-    animation: typing 6s steps(var(--count)) forwards;
+    animation: typing 4s steps(var(--count)) forwards;
     /* 加个倒影可能会比较好看 */
     /* -webkit-box-reflect: below 1px linear-gradient(transparent 30%,rgba(0,0,0,0.05)); */
 }
