@@ -1,0 +1,77 @@
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            width: 100%;
+            height: 700px;
+            background-color: bisque;
+            display: flex;
+            /*控制子元素整体布局方向*/
+            flex-direction: column;
+            /*决定水平方向子项的分布方式*/
+            justify-content: center;
+            /*决定子项元素在容器上垂直方向对齐方式*/
+            align-items: center;
+        }
+        .fu{
+            display: flex;
+            /*控制子元素整体布局方向*/
+            flex-direction: column;
+            /*决定水平方向子项的分布方式*/
+            justify-content: center;
+            /*决定子项元素在容器上垂直方向对齐方式*/
+            align-items: center;
+            /* background-color: #3498db; */
+        }
+        .zsk{
+            display: flex;
+            width: 400px;
+            height: 350px;
+            align-items: center;
+            margin-top: 40px;
+            /* background-color: #3498db; */
+        }
+        .text{
+            font-size: 20px;
+            /* 设置字符间距 */
+            letter-spacing: 3px;
+            text-indent: 2em;
+            line-height: 40px;
+            /* margin-top: 40px; */
+        }
+        .btn{
+            margin-top: 20px;
+            /* 设置字符间距 */
+            letter-spacing: 6px;
+            text-align: center;
+            height: 40px;
+            width: 100px;
+            color: #fff;
+            border-radius: 10px;
+            background: #3498db;
+        }
+        .btn:hover {
+            background: #3cb0fd;
+        }
+        .xhx{
+            width: 200px;
+            height: 200px;
+            /* background-color: aquamarine; */
+        }
+        .zimu{
+            animation-name: ik;
+            animation-delay: 3s;
+            animation-duration: 10s;
+        }
+        /*定义动画*/
+        @keyframes ik {
+            /*第一帧*/
+            from{
+                
+            }
+            /*最后一帧*/
+            to{
+                transform: translate(900px);
+            }
+        }
