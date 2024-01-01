@@ -51,7 +51,6 @@
         "哥们哥们，要读书要学习，要成为超级厉害的大人喔~",
         "菜烧咸了可以放一会儿，因为时间可以冲淡一切",
         "分享一个帮别人拍照的小技巧\n\u3000\u3000'你设备不行~'",
-        "有在期待更新吗？"
         ]
     let btn = document.getElementById("btn")
     let text = document.getElementById("text")
